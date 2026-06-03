@@ -73,30 +73,30 @@ export default function ParallaxGallery() {
         {/* Левая колонка */}
         <div ref={col1Ref} className="flex flex-col gap-4 md:gap-8 w-1/3 mt-20">
           <div className="w-full h-[40vh] bg-neutral-800 rounded-xl overflow-hidden group">
-            <img src="/penza_landing_nextjs/images/1.jpg" alt="Галерея 1" className="w-full h-full object-cover opacity-70 group-hover:opacity-100 group-hover:scale-105 transition-all duration-700" />
+            <img src="/images/1.jpg" alt="Галерея 1" className="w-full h-full object-cover opacity-70 group-hover:opacity-100 group-hover:scale-105 transition-all duration-700" />
           </div>
           <div className="w-full h-[50vh] bg-neutral-800 rounded-xl overflow-hidden group">
-            <img src="/penza_landing_nextjs/images/2.jpg" alt="Галерея 2" className="w-full h-full object-cover opacity-70 group-hover:opacity-100 group-hover:scale-105 transition-all duration-700" />
+            <img src="/images/2.jpg" alt="Галерея 2" className="w-full h-full object-cover opacity-70 group-hover:opacity-100 group-hover:scale-105 transition-all duration-700" />
           </div>
         </div>
 
         {/* Центральная колонка (изначально сдвинута вверх классом -mt-32) */}
         <div ref={col2Ref} className="flex flex-col gap-4 md:gap-8 w-1/3 -mt-32">
           <div className="w-full h-[50vh] bg-neutral-800 rounded-xl overflow-hidden group">
-            <img src="/penza_landing_nextjs/images/3.jpg" alt="Галерея 3" className="w-full h-full object-cover opacity-70 group-hover:opacity-100 group-hover:scale-105 transition-all duration-700" />
+            <img src="/images/3.jpg" alt="Галерея 3" className="w-full h-full object-cover opacity-70 group-hover:opacity-100 group-hover:scale-105 transition-all duration-700" />
           </div>
           <div className="w-full h-[40vh] bg-neutral-800 rounded-xl overflow-hidden group">
-            <img src="/penza_landing_nextjs/images/4.jpg" alt="Галерея 4" className="w-full h-full object-cover opacity-70 group-hover:opacity-100 group-hover:scale-105 transition-all duration-700" />
+            <img src="/images/4.jpg" alt="Галерея 4" className="w-full h-full object-cover opacity-70 group-hover:opacity-100 group-hover:scale-105 transition-all duration-700" />
           </div>
         </div>
 
         {/* Правая колонка */}
         <div ref={col3Ref} className="flex flex-col gap-4 md:gap-8 w-1/3 mt-40">
           <div className="w-full h-[35vh] bg-neutral-800 rounded-xl overflow-hidden group">
-            <img src="/penza_landing_nextjs/images/5.jpg" alt="Галерея 5" className="w-full h-full object-cover opacity-70 group-hover:opacity-100 group-hover:scale-105 transition-all duration-700" />
+            <img src="/images/5.jpg" alt="Галерея 5" className="w-full h-full object-cover opacity-70 group-hover:opacity-100 group-hover:scale-105 transition-all duration-700" />
           </div>
           <div className="w-full h-[55vh] bg-neutral-800 rounded-xl overflow-hidden group">
-            <img src="/penza_landing_nextjs/images/6.jpg" alt="Галерея 6" className="w-full h-full object-cover opacity-70 group-hover:opacity-100 group-hover:scale-105 transition-all duration-700" />
+            <img src="/images/6.jpg" alt="Галерея 6" className="w-full h-full object-cover opacity-70 group-hover:opacity-100 group-hover:scale-105 transition-all duration-700" />
           </div>
         </div>
 

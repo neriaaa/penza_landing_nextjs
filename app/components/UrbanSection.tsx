@@ -64,7 +64,7 @@ export default function UrbanSection() {
         <div className="w-[80vw] md:w-[50vw] h-[60vh] shrink-0 mx-10 bg-neutral-800 rounded-xl overflow-hidden relative group">
           <div className="absolute inset-0 bg-neutral-700">
              <img
-                src="/penza_landing_nextjs/social_place.jpg"
+                src="/social_place.jpg"
                 alt="Обновленные общественные пространства"
                 className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105 opacity-80"
               />
@@ -81,7 +81,7 @@ export default function UrbanSection() {
         <div className="w-[80vw] md:w-[50vw] h-[60vh] shrink-0 mx-10 bg-neutral-800 rounded-xl overflow-hidden relative group">
           <div className="absolute inset-0 bg-neutral-700">
 <img
-  src="/penza_landing_nextjs/images/culture.jpg"
+  src="/images/culture.jpg"
   alt="Культурные инициативы"
   className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105 opacity-80"
 />
