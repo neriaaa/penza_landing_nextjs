@@ -44,7 +44,7 @@ export default function HistorySection() {
         className="absolute inset-0 w-full h-full object-cover z-0"
       >
      
-        <source src="/images/history.mp4" type="video/mp4" />
+        <source src="/penza_landing_nextjs/videos/history.mp4" type="video/mp4" />
       </video>
 
       <div className="absolute inset-0 bg-black/60 z-10"></div>
