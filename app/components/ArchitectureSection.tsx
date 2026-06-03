@@ -68,7 +68,7 @@ export default function ArchitectureSection() {
             <div className="w-full h-96 bg-neutral-800 rounded-lg overflow-hidden mb-6">
             
               <img
-                src="/images/cathedral.jpg" 
+                src="/penza_landing_nextjs/images/cathedral.jpg" 
                 alt="Спасский кафедральный собор Пензы"
                 className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
               />
@@ -87,7 +87,7 @@ export default function ArchitectureSection() {
             <div className="w-full h-96 bg-neutral-800 rounded-lg overflow-hidden mb-6">
              
               <img
-                src="/images/theater.jpg"
+                src="/penza_landing_nextjs/images/theater.jpg"
                 alt="Пензенский областной драматический театр"
                 className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
               />
