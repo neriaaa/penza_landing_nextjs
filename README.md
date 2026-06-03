@@ -1,36 +1,29 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Penza Modern Web 🏛️
 
-## Getting Started
+Современный интерактивный веб-проект, посвященный истории, архитектуре и развитию города Пенза. Лендинг создан с упором на кинематографичный пользовательский опыт, глубокое погружение и сложные веб-анимации.
 
-First, run the development server:
+**🌐 Живое демо:** [Посмотреть сайт](https://neriaaa.github.io)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## ✨ Ключевые особенности
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+В проекте реализованы механики, характерные для сайтов премиум-класса (Awwwards style):
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+* **Custom Preloader:** Стартовый экран загрузки с математически точным отсчетом процентов и экспоненциальной анимацией скрытия.
+* **Kinematic Smooth Scroll:** Плавный скролл всей страницы, обеспечивающий идеальную работу анимаций без рывков (на базе Lenis).
+* **Horizontal Scroll Sections:** Блоки развития и истории используют сложную механику `pin` (закрепления экрана), переводя вертикальный скролл мыши в горизонтальное движение контента.
+* **Parallax Gallery:** Фотогалерея с эффектом параллакса — колонки движутся в разных направлениях и с разной скоростью, создавая эффект 3D-пространства.
+* **Dynamic Stats:** Блок статистики с анимированным отсчетом цифр при попадании в зону видимости экрана.
+* **Interactive Header:** Умная навигация, которая скрывается при скролле вниз и появляется при скролле вверх, с плавными переходами (Smooth Scroll) к секциям по ID.
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+## 🛠️ Технологический стек
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Проект построен на самых современных инструментах веб-разработки:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+* **[Next.js](https://nextjs.org/)** (App Router) — React-фреймворк для сборки и маршрутизации.
+* **[Tailwind CSS v4](https://tailwindcss.com/)** — Утилитарный CSS-фреймворк нового поколения для быстрой и адаптивной стилизации.
+* **[GSAP](https://gsap.com/) & ScrollTrigger** — Индустриальный стандарт для создания сложных, высокопроизводительных веб-анимаций.
+* **[Lenis](https://lenis.darkroom.engineering/)** — Легковесная библиотека для создания идеального плавного скролла.
