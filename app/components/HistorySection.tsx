@@ -23,7 +23,7 @@ export default function HistorySection() {
           ease: "power3.out",
           scrollTrigger: {
             trigger: containerRef.current,
-            start: "top 60%", 
+            start: "top 60%",
           }
         }
       );
@@ -35,7 +35,6 @@ export default function HistorySection() {
   return (
     <section id="history" ref={containerRef} className="relative h-screen w-full flex items-center justify-center overflow-hidden">
       
-      {/* Видео на фоне */}
       <video 
         autoPlay 
         loop 
@@ -43,7 +42,6 @@ export default function HistorySection() {
         playsInline 
         className="absolute inset-0 w-full h-full object-cover z-0"
       >
-     
         <source src="/penza_landing_nextjs/videos/history.mp4" type="video/mp4" />
       </video>
 

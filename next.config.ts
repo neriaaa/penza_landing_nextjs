@@ -4,7 +4,6 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
-  // Указываем имя твоего репозитория, чтобы не сломались стили
   basePath: '/penza_landing_nextjs',
 };
 
